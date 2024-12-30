@@ -4,6 +4,11 @@ Notifier for gamer at work - let the kids know it's dinner or it's time to walk 
 ## What is notifier?
 Notifier is a visual alarm simply using a cheap ESP8266 (Wemos D1 mini 3.0.0) and Adafruit neopixel listening on actions over MQTT connected to your wifi. Casing models and STL files are included to be 3D printed, shaped as a puck with mounting of the ESP chip and neopixel.
 
+![1](https://github.com/boanjo/boanjo.github.io/blob/master/notifier11.jpg?raw=true "Pic")
+
+In the Fusion 360 folder you have the full assembly if you want to do your own modifications or simple print files from the STL directory.
+![2](https://github.com/boanjo/boanjo.github.io/blob/master/notifier12.jpg?raw=true "Fusion 360 Model")
+
 ## BOM
 1. Wemos D1 mini lite (3.0.0) [Amazon](https://www.amazon.se/AZDelivery-ESP8266EX-WLAN-modul-kompatibel-inklusive/dp/B08BTRPMV1/ref=asc_df_B08BTRPMV1/?tag=shpngadsglede-21&linkCode=df0&hvadid=476429357278&hvpos=&hvnetw=g&hvrand=13859086852657585496&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1012321&hvtargid=pla-991254816887&mcid=9c4e8c5c234d3adea85e26105b407f85&th=1) Or if you are in Sweden [Kjell&Co](https://www.kjell.com/se/produkter/el-verktyg/elektronik/utvecklingskit/arduino/utvecklingskort/luxorparts-wemos-d1-mini-utvecklingskort-p87294)
 2. Adafruit Neopixel 12 LED ring [Adafruit](https://www.adafruit.com/product/1643) Or if you are in Sweden [Electrokit ](https://www.electrokit.com/neopixel-ring-12-rgb-leds-37mm)
