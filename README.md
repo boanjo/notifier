@@ -4,12 +4,17 @@ A visual alarm (led) controller over MQTT - Let the kids know it's dinner, or ti
 ## Background
 When moving to a bigger house i quickly realized it wasn't as easy to communicate between the floor anymore, especially when headphones are on and gaming. My first solution was to use and automation with homeassistant and blinking the kids Philips hue lights. Even if it has worked fairly well for a year or two it has made the HUE lights to give up on me a number of times and i wanted something with more control over. The ZigBee and Wifi bulbs don't like flashing in my experience... My solution is to hook up a wemos D1 mini lite (Simple and cheap esp8266 chip) to my existing MQTT GW and let it control a few light modes (like flashing, worm,...) for a Adafruit Neopixel 12 LED ring. Case models and STL files are included to be 3D printed, shaped as a puck with mounting of the ESP chip and neopixel.
 
+![5](https://github.com/boanjo/boanjo.github.io/blob/master/notifier11.jpg?raw=true "Notifier") <br><br>
+
 Here is an overview of my setup with many different triggers of the visual alarm (down in the left corner)
+
 ![1](https://github.com/boanjo/boanjo.github.io/blob/master/notifier15.jpg?raw=true "My setup")
 
 
 
-In the Fusion 360 folder you have the full assembly if you want to do your own modifications or simple print files from the STL directory.
+## Models
+In the Fusion 360 folder you have the full assembly if you want to do your own modifications or simple print files from the STL directory.<br>
+
 ![2](https://github.com/boanjo/boanjo.github.io/blob/master/notifier12.jpg?raw=true "Fusion 360 Model")
 
 ## BOM
@@ -42,5 +47,3 @@ payload: {"mode": "flash", "seconds": 10, "red": 0, "green": 255, "blue": 0, "re
 
 
 
-
-![5](https://github.com/boanjo/boanjo.github.io/blob/master/notifier11.jpg?raw=true "Notifier")
