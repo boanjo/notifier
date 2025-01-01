@@ -37,3 +37,6 @@ payload: {"mode": "flash", "seconds": 10, "red": 0, "green": 255, "blue": 0, "re
 ```
 ![4](https://github.com/boanjo/boanjo.github.io/blob/master/notifier13.jpg?raw=true "Automation")
 
+
+Here is my personal setup to trigger the notifier - but the sky is the limit!
+![5](https://github.com/boanjo/boanjo.github.io/blob/master/notifier15.jpg?raw=true "Possible triggers")
